@@ -1,0 +1,15 @@
+{
+  "embed_model": "nomic-embed-text",
+  "dims": 768,
+  "n_chunks": 33,
+  "built_at": "2026-09-28T23:51:26",
+  "embed_seconds": 1.53,
+  "files": {
+    "01-pricing-plans.md": "d450d3ea8727",
+    "02-refund-and-cancellation.md": "ea9c7a7d017d",
+    "03-support-and-sla.md": "cc1016d7c6a5",
+    "04-security-and-privacy.md": "02b8331b401e",
+    "05-onboarding-guide.md": "cdf49ff2ad4e",
+    "06-integrations-and-limits.md": "3fd429f104e8"
+  }
+}

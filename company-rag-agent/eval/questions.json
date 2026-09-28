@@ -1,0 +1,200 @@
+[
+  {
+    "id": "D01",
+    "type": "docs",
+    "question": "How much does the Business plan cost per month?",
+    "expected_source": "01-pricing-plans.md",
+    "must_include": [
+      "149"
+    ]
+  },
+  {
+    "id": "D02",
+    "type": "docs",
+    "question": "How long is the free trial and do I need a credit card?",
+    "expected_source": "01-pricing-plans.md",
+    "must_include": [
+      "14"
+    ]
+  },
+  {
+    "id": "D03",
+    "type": "docs",
+    "question": "What does it cost if we go over our monthly execution limit?",
+    "expected_source": "01-pricing-plans.md",
+    "must_include": [
+      "5"
+    ]
+  },
+  {
+    "id": "D04",
+    "type": "docs",
+    "question": "What discount do non-profit organisations get?",
+    "expected_source": "01-pricing-plans.md",
+    "must_include": [
+      "40"
+    ]
+  },
+  {
+    "id": "D05",
+    "type": "docs",
+    "question": "Can a customer get a refund on an annual plan after 3 weeks?",
+    "expected_source": "02-refund-and-cancellation.md",
+    "must_include": [
+      "30"
+    ]
+  },
+  {
+    "id": "D06",
+    "type": "docs",
+    "question": "What happens to the data after a subscription is cancelled?",
+    "expected_source": "02-refund-and-cancellation.md",
+    "must_include": [
+      "30",
+      "delet"
+    ]
+  },
+  {
+    "id": "D07",
+    "type": "docs",
+    "question": "What is the first response time for a P1 incident for Enterprise customers?",
+    "expected_source": "03-support-and-sla.md",
+    "must_include": [
+      "1 hour",
+      "1-hour",
+      "one hour"
+    ]
+  },
+  {
+    "id": "D08",
+    "type": "docs",
+    "question": "What service credit applies if uptime drops to 98%?",
+    "expected_source": "03-support-and-sla.md",
+    "must_include": [
+      "25"
+    ]
+  },
+  {
+    "id": "D09",
+    "type": "docs",
+    "question": "Where is customer data stored?",
+    "expected_source": "04-security-and-privacy.md",
+    "must_include": [
+      "Frankfurt"
+    ]
+  },
+  {
+    "id": "D10",
+    "type": "docs",
+    "question": "How often are backups made and how long are they kept?",
+    "expected_source": "04-security-and-privacy.md",
+    "must_include": [
+      "6",
+      "35"
+    ]
+  },
+  {
+    "id": "D11",
+    "type": "docs",
+    "question": "What is the API rate limit on the Business plan?",
+    "expected_source": "06-integrations-and-limits.md",
+    "must_include": [
+      "100"
+    ]
+  },
+  {
+    "id": "D12",
+    "type": "docs",
+    "question": "How long can a single workflow run on the Business plan?",
+    "expected_source": "06-integrations-and-limits.md",
+    "must_include": [
+      "30"
+    ]
+  },
+  {
+    "id": "D13",
+    "type": "docs",
+    "question": "Do Business customers get a free onboarding call?",
+    "expected_source": "05-onboarding-guide.md",
+    "must_include": [
+      "60"
+    ]
+  },
+  {
+    "id": "D14",
+    "type": "docs",
+    "question": "داده‌های مشتریان در کدام شهر ذخیره می‌شوند؟",
+    "expected_source": "04-security-and-privacy.md",
+    "must_include": [
+      "Frankfurt",
+      "فرانکفورت"
+    ]
+  },
+  {
+    "id": "C01",
+    "type": "customer",
+    "question": "What plan is Acme GmbH on and when is the renewal?",
+    "expected_tool": "get_customer",
+    "must_include": [
+      "Enterprise",
+      "enterprise"
+    ]
+  },
+  {
+    "id": "C02",
+    "type": "customer",
+    "question": "Does the customer reza@shop-example.ir have open tickets?",
+    "expected_tool": "get_customer",
+    "must_include": [
+      "T-5530",
+      "P1",
+      "Invoices"
+    ]
+  },
+  {
+    "id": "C03",
+    "type": "customer",
+    "question": "Which customers are past due?",
+    "expected_tool": "list_customers",
+    "must_include": [
+      "Weber"
+    ]
+  },
+  {
+    "id": "X01",
+    "type": "combined",
+    "question": "Karimi Shop has a critical issue. Which support channels and response time do they get with their plan?",
+    "expected_tool": "get_customer",
+    "expected_source": "03-support-and-sla.md",
+    "must_include": [
+      "2 business days",
+      "email"
+    ]
+  },
+  {
+    "id": "X02",
+    "type": "combined",
+    "question": "Is Acme GmbH entitled to 24/7 phone support?",
+    "expected_tool": "get_customer",
+    "expected_source": "03-support-and-sla.md",
+    "must_include": [
+      "yes",
+      "Yes",
+      "entitled",
+      "24/7"
+    ]
+  },
+  {
+    "id": "N01",
+    "type": "not_found",
+    "question": "What is the name of the CEO of Nimbus Flow?",
+    "must_include": [
+      "not",
+      "no information",
+      "couldn't",
+      "could not",
+      "don't",
+      "do not"
+    ]
+  }
+]

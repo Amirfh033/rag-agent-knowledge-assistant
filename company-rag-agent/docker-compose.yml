@@ -1,0 +1,33 @@
+# Assistant API + mock CRM.  Ollama runs on the host (see README).
+#   docker compose up -d --build
+#   docker compose exec app python -m app.cli ingest
+#   open http://localhost:8000
+services:
+  app:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      - LLM_BASE_URL=http://host.docker.internal:11434/v1
+      - LLM_API_KEY=ollama
+      - CHAT_MODEL=qwen2.5:3b
+      - EMBED_MODEL=nomic-embed-text
+      - CRM_BASE_URL=http://mock-crm:4000
+      - CRM_API_KEY=dev-secret-key
+    volumes:
+      - ./data:/app/data        # documents + index survive rebuilds
+      - ./logs:/app/logs
+      - ./eval:/app/eval
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on: [mock-crm]
+
+  mock-crm:
+    image: node:22-alpine
+    working_dir: /crm
+    command: node server.js
+    ports: ["4001:4000"]        # 4001 on the host, so it doesn't clash with project 1
+    environment:
+      - PORT=4000
+      - API_KEY=dev-secret-key
+    volumes:
+      - ./mock-crm:/crm

@@ -1,0 +1,144 @@
+{
+  "customers": [
+    {
+      "id": "cus_1001",
+      "full_name": "Sara Ahmadi",
+      "email": "sara@acme-example.com",
+      "phone": "+491512345678",
+      "company": "Acme GmbH",
+      "company_size": "201-1000",
+      "plan": "enterprise",
+      "workspace_id": "ws_acme",
+      "status": "active",
+      "renewal_date": "2027-03-01",
+      "mrr_eur": 2400,
+      "open_tickets": [
+        {
+          "id": "T-5512",
+          "priority": "P2",
+          "subject": "Slow HubSpot sync",
+          "opened": "2026-09-25"
+        }
+      ],
+      "last_invoice": {
+        "number": "INV-2026-0912",
+        "amount_eur": 2400,
+        "status": "paid"
+      },
+      "category": "sales_lead",
+      "priority": "medium",
+      "source": "seed",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "cus_1002",
+      "full_name": "Reza Karimi",
+      "email": "reza@shop-example.ir",
+      "phone": null,
+      "company": "Karimi Shop",
+      "company_size": "1-10",
+      "plan": "starter",
+      "workspace_id": "ws_karimi",
+      "status": "active",
+      "renewal_date": "2026-10-15",
+      "mrr_eur": 29,
+      "open_tickets": [
+        {
+          "id": "T-5530",
+          "priority": "P1",
+          "subject": "Invoices not syncing",
+          "opened": "2026-09-28"
+        }
+      ],
+      "last_invoice": {
+        "number": "INV-2026-0931",
+        "amount_eur": 29,
+        "status": "paid"
+      },
+      "category": "sales_lead",
+      "priority": "medium",
+      "source": "seed",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "cus_1003",
+      "full_name": "Lena Vogel",
+      "email": "lena@agency-example.de",
+      "phone": "+4930123456",
+      "company": "Vogel Digital",
+      "company_size": "11-50",
+      "plan": "business",
+      "workspace_id": "ws_vogel",
+      "status": "trial",
+      "renewal_date": "2026-10-05",
+      "mrr_eur": 0,
+      "open_tickets": [],
+      "last_invoice": null,
+      "category": "sales_lead",
+      "priority": "medium",
+      "source": "seed",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "cus_1004",
+      "full_name": "Maryam Hosseini",
+      "email": "maryam@greenleaf-example.org",
+      "phone": null,
+      "company": "GreenLeaf Foundation",
+      "company_size": "11-50",
+      "plan": "business",
+      "workspace_id": "ws_greenleaf",
+      "status": "active",
+      "renewal_date": "2027-01-10",
+      "mrr_eur": 89.4,
+      "notes": "Non-profit discount 40%",
+      "open_tickets": [],
+      "last_invoice": {
+        "number": "INV-2026-0877",
+        "amount_eur": 89.4,
+        "status": "paid"
+      },
+      "category": "sales_lead",
+      "priority": "medium",
+      "source": "seed",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "cus_1005",
+      "full_name": "Jonas Weber",
+      "email": "jonas@logistik-example.de",
+      "phone": "+49891234567",
+      "company": "Weber Logistik AG",
+      "company_size": "1000+",
+      "plan": "business",
+      "workspace_id": "ws_weber",
+      "status": "past_due",
+      "renewal_date": "2026-09-20",
+      "mrr_eur": 149,
+      "open_tickets": [
+        {
+          "id": "T-5498",
+          "priority": "P3",
+          "subject": "Question about Enterprise upgrade",
+          "opened": "2026-09-18"
+        }
+      ],
+      "last_invoice": {
+        "number": "INV-2026-0850",
+        "amount_eur": 149,
+        "status": "overdue"
+      },
+      "category": "sales_lead",
+      "priority": "medium",
+      "source": "seed",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-09-28T00:00:00.000Z"
+    }
+  ],
+  "logs": [],
+  "notifications": []
+}

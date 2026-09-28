@@ -1,0 +1,233 @@
+[
+ {
+  "id": "9e3549addbec",
+  "source": "01-pricing-plans.md",
+  "title": "Nimbus Flow — Pricing and Plans",
+  "section": "",
+  "text": "Nimbus Flow is a workflow-automation platform for small and mid-sized companies. All prices are per month, billed in euros, excluding VAT."
+ },
+ {
+  "id": "9d35f2ecbd0c",
+  "source": "01-pricing-plans.md",
+  "title": "Nimbus Flow — Pricing and Plans",
+  "section": "Plans > Starter — €29 per month",
+  "text": "- Up to 3 users\n- 2,000 workflow executions per month\n- 20 active workflows\n- Email support only, response within 2 business days\n- Execution history kept for 7 days"
+ },
+ {
+  "id": "6c2a5cc6a25b",
+  "source": "01-pricing-plans.md",
+  "title": "Nimbus Flow — Pricing and Plans",
+  "section": "Plans > Business — €149 per month",
+  "text": "- Up to 25 users\n- 50,000 workflow executions per month\n- Unlimited active workflows\n- Email and chat support, response within 8 business hours\n- Execution history kept for 30 days\n- Single sign-on (SSO) with Google and Microsoft\n- Role-based access control"
+ },
+ {
+  "id": "ccd104f83bcc",
+  "source": "01-pricing-plans.md",
+  "title": "Nimbus Flow — Pricing and Plans",
+  "section": "Plans > Enterprise — custom price",
+  "text": "- Unlimited users and executions\n- Dedicated customer success manager\n- 24/7 phone support with a 1-hour response time for critical incidents\n- 99.9% uptime SLA with service credits\n- Execution history kept for 365 days\n- Self-hosting option and EU-only data residency\n- Contract starts at 12 months; contact sales@nimbusflow.example for a quote\n\nAnnual billing:\nCustomers who pay yearly get **2 months free** (they pay for 10 months instead of 12)."
+ },
+ {
+  "id": "7d9c4653f615",
+  "source": "01-pricing-plans.md",
+  "title": "Nimbus Flow — Pricing and Plans",
+  "section": "Extra executions",
+  "text": "If a Starter or Business workspace goes over its monthly execution limit, extra executions cost **€5 per additional 1,000 executions**. Workflows are never stopped automatically; the overage is added to the next invoice."
+ },
+ {
+  "id": "b2ec1b73aead",
+  "source": "01-pricing-plans.md",
+  "title": "Nimbus Flow — Pricing and Plans",
+  "section": "Discounts",
+  "text": "- Registered non-profit organisations and schools get **40% off** Starter and Business.\n- Start-ups younger than 2 years with less than €1M funding can apply for the Start-up program: Business plan at 50% off for the first year."
+ },
+ {
+  "id": "ed702edbffad",
+  "source": "01-pricing-plans.md",
+  "title": "Nimbus Flow — Pricing and Plans",
+  "section": "Free trial",
+  "text": "Every new workspace gets a **14-day free trial** of the Business plan. No credit card is required. After the trial the workspace moves to Starter unless a paid plan is chosen."
+ },
+ {
+  "id": "182ef09747d3",
+  "source": "02-refund-and-cancellation.md",
+  "title": "Refund and Cancellation Policy",
+  "section": "Cancelling a subscription",
+  "text": "Customers can cancel at any time from **Settings → Billing → Cancel plan**. The workspace stays active until the end of the current billing period. After that it is downgraded to a read-only state for 30 days, and then all data is deleted permanently."
+ },
+ {
+  "id": "81fded02cdf8",
+  "source": "02-refund-and-cancellation.md",
+  "title": "Refund and Cancellation Policy",
+  "section": "Refunds for monthly plans",
+  "text": "Monthly plans are not refunded for partial months. If a customer was charged by mistake (for example a duplicate charge), the full amount is refunded within **5 business days**."
+ },
+ {
+  "id": "f49d367c693b",
+  "source": "02-refund-and-cancellation.md",
+  "title": "Refund and Cancellation Policy",
+  "section": "Refunds for annual plans",
+  "text": "Annual plans can be refunded **within the first 30 days** after purchase for the full amount. After 30 days, a pro-rated refund is possible only if Nimbus Flow failed to meet its SLA for two consecutive months.\n\nEnterprise contracts:\nEnterprise contracts follow the terms of the signed agreement. Early termination requires 90 days written notice."
+ },
+ {
+  "id": "c4fe2a97b6fa",
+  "source": "02-refund-and-cancellation.md",
+  "title": "Refund and Cancellation Policy",
+  "section": "How to request a refund",
+  "text": "Send an email to billing@nimbusflow.example with the workspace ID and invoice number. Refund requests are handled by the finance team, not by technical support."
+ },
+ {
+  "id": "1033e7212cdb",
+  "source": "02-refund-and-cancellation.md",
+  "title": "Refund and Cancellation Policy",
+  "section": "Downgrading",
+  "text": "Downgrading from Business to Starter takes effect at the next billing date. If the workspace has more than 20 active workflows, the extra workflows are deactivated (not deleted) and the customer chooses which ones stay active."
+ },
+ {
+  "id": "c87d60729611",
+  "source": "03-support-and-sla.md",
+  "title": "Support Channels and Service Level Agreement",
+  "section": "Support channels",
+  "text": "- **Email:** support@nimbusflow.example (all plans)\n- **Live chat:** inside the app, Monday to Friday 08:00–18:00 CET (Business and Enterprise)\n- **Phone:** 24/7 hotline for Enterprise customers only\n- **Community forum:** community.nimbusflow.example (all users)"
+ },
+ {
+  "id": "751657a17fd1",
+  "source": "03-support-and-sla.md",
+  "title": "Support Channels and Service Level Agreement",
+  "section": "Priority levels",
+  "text": "| Priority | Definition | First response (Business) | First response (Enterprise) |\n|---|---|---|---|\n| P1 Critical | Production workflows down, no workaround | 4 business hours | 1 hour, 24/7 |\n| P2 High | Major feature broken, workaround exists | 8 business hours | 4 hours |\n| P3 Normal | Question or minor bug | 2 business days | 1 business day |\n\nStarter customers receive email support with a first response within 2 business days for all priorities."
+ },
+ {
+  "id": "5ec7a44a08e6",
+  "source": "03-support-and-sla.md",
+  "title": "Support Channels and Service Level Agreement",
+  "section": "Uptime SLA",
+  "text": "Enterprise customers have a **99.9% monthly uptime** guarantee. If uptime falls below that, service credits are applied automatically:\n- 99.0% – 99.9%: 10% credit of the monthly fee\n- 95.0% – 99.0%: 25% credit\n- below 95.0%: 50% credit\n\nPlanned maintenance is announced at least **72 hours** in advance on status.nimbusflow.example and does not count as downtime."
+ },
+ {
+  "id": "dfd71f2bd869",
+  "source": "03-support-and-sla.md",
+  "title": "Support Channels and Service Level Agreement",
+  "section": "Escalation",
+  "text": "If a P1 ticket is not resolved within 8 hours, it is escalated to the on-call engineering lead. Customers can also escalate by replying \"ESCALATE\" to the ticket email."
+ },
+ {
+  "id": "cb053435c6f0",
+  "source": "04-security-and-privacy.md",
+  "title": "Security and Data Privacy FAQ",
+  "section": "Where is data stored?",
+  "text": "All customer data is stored in data centres in **Frankfurt, Germany** (primary) with an encrypted backup in **Amsterdam, Netherlands**. Enterprise customers can choose EU-only processing with no sub-processors outside the EU."
+ },
+ {
+  "id": "8b60b3431797",
+  "source": "04-security-and-privacy.md",
+  "title": "Security and Data Privacy FAQ",
+  "section": "Encryption",
+  "text": "Data is encrypted in transit with TLS 1.3 and at rest with AES-256. Credentials stored in workflows are encrypted with a per-workspace key."
+ },
+ {
+  "id": "59b8e0b282f9",
+  "source": "04-security-and-privacy.md",
+  "title": "Security and Data Privacy FAQ",
+  "section": "Certifications",
+  "text": "Nimbus Flow is **ISO 27001** certified and completed a **SOC 2 Type II** audit in 2025. The reports are available to customers under NDA."
+ },
+ {
+  "id": "6b11ffcd3456",
+  "source": "04-security-and-privacy.md",
+  "title": "Security and Data Privacy FAQ",
+  "section": "GDPR",
+  "text": "Nimbus Flow acts as a data processor. A Data Processing Agreement (DPA) is available in **Settings → Legal** and can be signed electronically. Data subject requests are answered within 30 days."
+ },
+ {
+  "id": "59517c3236a7",
+  "source": "04-security-and-privacy.md",
+  "title": "Security and Data Privacy FAQ",
+  "section": "Backups",
+  "text": "Backups run every **6 hours** and are kept for **35 days**. Point-in-time restore is available for Enterprise customers."
+ },
+ {
+  "id": "d94c73c0e656",
+  "source": "04-security-and-privacy.md",
+  "title": "Security and Data Privacy FAQ",
+  "section": "Access by employees",
+  "text": "Nimbus Flow employees can access customer workspaces only when a customer opens a support ticket and grants temporary access. All access is logged and the customer can see the log."
+ },
+ {
+  "id": "d8d0e1f60b92",
+  "source": "04-security-and-privacy.md",
+  "title": "Security and Data Privacy FAQ",
+  "section": "Reporting a vulnerability",
+  "text": "Security issues can be reported to security@nimbusflow.example. Nimbus Flow runs a responsible-disclosure program and answers within 3 business days."
+ },
+ {
+  "id": "f643e968c3b3",
+  "source": "05-onboarding-guide.md",
+  "title": "Customer Onboarding Guide",
+  "section": "Week 1 — Setup",
+  "text": "1. The account owner creates the workspace and invites team members from **Settings → Members**.\n2. Connect the first integrations. The most used ones are Gmail, Slack, HubSpot, Google Sheets and PostgreSQL.\n3. Import one of the 150+ ready-made templates from the template gallery."
+ },
+ {
+  "id": "6a240842b282",
+  "source": "05-onboarding-guide.md",
+  "title": "Customer Onboarding Guide",
+  "section": "Week 2 — First production workflow",
+  "text": "- Pick one repetitive process, for example lead routing or invoice reminders.\n- Test with the **Test run** button; test runs do not count towards the execution limit.\n- Turn on **error notifications** in workflow settings so failures are emailed to the owner."
+ },
+ {
+  "id": "5ec1f2851006",
+  "source": "05-onboarding-guide.md",
+  "title": "Customer Onboarding Guide",
+  "section": "Onboarding call",
+  "text": "Business customers get **one free 60-minute onboarding call** with a solutions engineer. Enterprise customers get a dedicated onboarding program of **4 weekly sessions**. Starter customers can book a paid onboarding call for €99."
+ },
+ {
+  "id": "921734acd89b",
+  "source": "05-onboarding-guide.md",
+  "title": "Customer Onboarding Guide",
+  "section": "Training",
+  "text": "The Nimbus Flow Academy offers free video courses. Completing the \"Automation Fundamentals\" course gives a certificate that can be shared on LinkedIn."
+ },
+ {
+  "id": "5f218d53c7f3",
+  "source": "05-onboarding-guide.md",
+  "title": "Customer Onboarding Guide",
+  "section": "Health check",
+  "text": "After 90 days, Business and Enterprise customers are offered a free workspace health check that reviews error rates, unused workflows and security settings."
+ },
+ {
+  "id": "74310c1595f8",
+  "source": "06-integrations-and-limits.md",
+  "title": "Integrations and Technical Limits",
+  "section": "Integrations",
+  "text": "Nimbus Flow has more than **400 built-in integrations**. Any service with a REST API can be connected through the generic HTTP node. Custom integrations can be written in JavaScript or Python in the Code node."
+ },
+ {
+  "id": "530c5cf63d86",
+  "source": "06-integrations-and-limits.md",
+  "title": "Integrations and Technical Limits",
+  "section": "API",
+  "text": "The Nimbus Flow public API allows creating, starting and monitoring workflows. The rate limit is **100 requests per minute** per workspace on Business and **1,000 requests per minute** on Enterprise. The Starter plan has no API access."
+ },
+ {
+  "id": "fd7fc5169c26",
+  "source": "06-integrations-and-limits.md",
+  "title": "Integrations and Technical Limits",
+  "section": "Webhooks",
+  "text": "Each workflow can have a webhook trigger. The maximum webhook payload size is **16 MB**. Webhook URLs can be protected with header authentication or HMAC signatures."
+ },
+ {
+  "id": "9bdb77c9c3ed",
+  "source": "06-integrations-and-limits.md",
+  "title": "Integrations and Technical Limits",
+  "section": "Execution limits",
+  "text": "- Maximum execution time of a single workflow run: **5 minutes** on Starter, **30 minutes** on Business, **2 hours** on Enterprise.\n- Maximum memory per execution: 512 MB (Starter), 2 GB (Business), 8 GB (Enterprise)."
+ },
+ {
+  "id": "4d431131acad",
+  "source": "06-integrations-and-limits.md",
+  "title": "Integrations and Technical Limits",
+  "section": "AI features",
+  "text": "The AI node supports OpenAI, Anthropic, Mistral and self-hosted models through an OpenAI-compatible endpoint. AI token usage is billed by the model provider, not by Nimbus Flow.\n\nRetries:\nEvery node can be configured to retry on failure up to **5 times** with a configurable wait between attempts."
+ }
+]
